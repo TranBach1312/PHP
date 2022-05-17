@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.myform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row label {
+  width: 20%;
+  padding: 10px;
+}
+
+.row input {
+  width: 60%;
+  padding: 10px;
+  outline: none;
+}
+
+.row input:focus, .row input:active {
+  border: #3498db;
+}
+/*# sourceMappingURL=style.css.map */

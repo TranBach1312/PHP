@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+    color: white;
+}
+
+body{
+    background: linear-gradient(to right, rgb(0, 162, 255), rgb(0, 0, 138));
+}
+
+.container{
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: -2px 2px 4px 2px rgb(116, 116, 116);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container .display-area input:first-child{
+    width: 100%;
+    height: 100px;
+    text-align: end;
+    vertical-align: bottom;
+    background-color: rgb(53, 55, 68);
+
+}
+
+.row{
+    display: flex;
+}
+
+.row input{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(53, 55, 68);
+    box-shadow: 2px 2px 2px 0px black;
+    margin: 2px;
+}
+
+.row input:active{
+    box-shadow: none;
+}
+
+.row:last-child input:first-child{
+    width: 160px;
+}

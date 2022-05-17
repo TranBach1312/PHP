@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    label{
+        width: 20%;
+        padding: 10px;
+    }
+    input{
+        width: 60%;
+        padding: 10px;
+        outline: none;
+        &:focus, &:active{
+            border: #3498db;
+        }
+    }
+    
+}
+
